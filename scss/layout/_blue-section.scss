@@ -1,0 +1,64 @@
+.blue-section {
+    width: 100%;
+    top: 84px;
+    background-color: $primary-color;
+
+    h1 {    
+        @include top-heading;
+        color: white;
+    }
+
+    p {
+        @include top-text;
+        color: white;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 1172px;
+
+        .flex-container {
+            @include flexbox;
+
+            .arrow{
+                @include arrows-styles;
+            }
+        
+            .arrow:hover{
+                @include arrow-hover;
+            }
+
+            
+            .box {   
+                @include small-box;
+
+                h3{
+                    @include heading-styles-box;
+                }
+
+                p{
+                    @include text-styles-box;
+                }
+
+                i {
+                    @include icon-styles;
+                }
+            }
+
+            .box:hover{
+                @include box-hover;
+            }
+        }
+
+    }
+
+    .ring{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: rgba(255, 56, 89, 1);
+        margin: 0 auto;
+        transform: translateY(16px);
+    }
+
+}

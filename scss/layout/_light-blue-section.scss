@@ -1,0 +1,55 @@
+.light-blue-section {
+    width: 100%;
+    background-color: $secondary-color;
+    
+
+    h1 {    
+        @include top-heading;
+        color: $primary-text-color;     
+    }
+
+    p {
+        @include top-text;
+        color: $primary-text-color;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+        color: $primary-text-color;
+        margin: 0;
+        margin-top: 36px;
+    }
+
+    .container{
+        width: 100%;
+
+        .flex-container {
+            @include flexbox;
+
+            .box {   
+                @include small-box;
+                margin-top: -16px;
+                margin-bottom: 72px;
+
+                h3{
+                    @include heading-styles-box;
+                }
+
+                p{
+                    @include text-styles-box;
+                }
+
+                i {
+                    @include icon-styles;
+                }
+
+            }
+
+            .box:hover{
+                @include box-hover;
+            }
+        }
+    }
+}
