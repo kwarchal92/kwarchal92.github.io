@@ -1,18 +1,18 @@
 @media screen and (min-width: $extra-large){
     .logo{
-        margin-left: 372px;
+        margin-left: 20%;
     }
 }
 
 
 
 @media screen and (max-width: $extra-large){ //1200px
-    .arrow{
-        display: none;
+    .logo{
+        margin-left: 20%;
     }
 
-    .logo{
-        margin: auto;
+    .arrow{
+        display: none;
     }
 
     .flex-container{
@@ -66,4 +66,3 @@
         }
     }
 }
-

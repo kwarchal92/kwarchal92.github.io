@@ -3,16 +3,16 @@
 /*Mobile breackpoints*/
 @media screen and (min-width: 1200px) {
   .logo {
-    margin-left: 372px;
+    margin-left: 20%;
   }
 }
 
 @media screen and (max-width: 1200px) {
+  .logo {
+    margin-left: 20%;
+  }
   .arrow {
     display: none;
-  }
-  .logo {
-    margin: auto;
   }
   .flex-container {
     -webkit-box-orient: vertical;
